@@ -18,7 +18,6 @@ const Navbar = () => {
       <nav>
           <div className="ancora">
             <Link to="/">Home</Link>
-            <Link to="/noticias">Notícias</Link>
             <Link to="/cadastro">Cadastre-se</Link>
             <Link to="/sobre">Sobre o Projeto!</Link>
           </div>
@@ -30,7 +29,6 @@ const Navbar = () => {
       </nav>
       <section className={`menu ${menuAtivo ? "ativo" : ""}`}>
         <Link onClick={fecharMenu} to="/">Home</Link>
-        <Link onClick={fecharMenu} to="/noticias">Notícias</Link>
         <Link onClick={fecharMenu} to="/cadastro">Cadastre-se</Link>
         <Link onClick={fecharMenu} to="/sobre">Sobre o Projeto!</Link>
       </section>
