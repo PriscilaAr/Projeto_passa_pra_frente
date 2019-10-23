@@ -13,7 +13,10 @@ const DoadorCadastro = () => {
 
     return (
     <div className="DoadorCadastro">
+        <header>
         <h1>Faça o seu Cadastro!</h1>
+        </header>
+        <aside>
         <form>
             <Input
             value={nome}
@@ -43,6 +46,10 @@ const DoadorCadastro = () => {
             placeholder="CPF"
             atualizarState={setCpf}
             />            
+            </form>
+            </aside>
+            <section>
+            <form>
             <Input
             value={email}
             type="email"
@@ -64,8 +71,9 @@ const DoadorCadastro = () => {
             placeholder="Senha"
             atualizarState={setSenha}
             />  
-            <button className="botao">Cadastrar</button>          
-        </form>
+            <button>Cadastrar</button>         
+            </form>
+            </section>          
     </div>
     );
 }

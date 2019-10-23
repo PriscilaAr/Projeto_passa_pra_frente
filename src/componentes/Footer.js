@@ -13,7 +13,6 @@ const Footer = () => {
             <a href="https://www.facebook.com/mastertech.tech"><img src={facebook}/></a>
             <a href="https://www.instagram.com/mastertech.tech"><img src={instagram}/></a>
             <a href="https://twitter.com/mastertech_tech"><img src={twitter}/></a>
-
         </footer>
     </div>
     );
